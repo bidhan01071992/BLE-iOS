@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "03E8BB52-C4AE-41D3-BDF6-166DE9296360"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A8B105A-5035-4A22-9B7C-C01FEB353351"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE-iOS/PeripheralVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "setTextToErrorLbl(message:isError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C06C0F52-E654-4F66-8B83-6A8622D26471"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE-iOS/PeripheralVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "advertiseDesign(region:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09D8094B-AEB2-4574-A2ED-D6A4FFE423C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE-iOS/CentralVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "CentralVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE-iOS/CentralVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "CentralVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - 1bca74088aaa1880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.infoLbl.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - 5f12f436a28fb4bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.infoLbl.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - f8b04072beebb78d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.infoLbl.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - 309ef4bda9550f96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.infoLbl.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - 50881eda07a6c8e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BLE_iOS.CentralVC"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "C21A17A0-0EB2-4D12-B7DF-1410CFC68B70 - 469ac19c5862dbbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE_iOS.CentralVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BLE_iOS.CentralVC&gt;"
+                  moduleName = "BLE-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bidhroy/Desktop/POCS/BLE-iOS/BLE-iOS/CentralVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

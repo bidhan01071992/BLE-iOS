@@ -137,13 +137,75 @@
                     <view key="view" contentMode="scaleToFill" id="qly-Bd-act">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="7ea-Qu-APM">
+                                <rect key="frame" x="47" y="244.5" width="281" height="178"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reciever" translatesAutoresizingMaskIntoConstraints="NO" id="qE4-wC-tbW">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="97"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWh-Rs-XMe">
+                                        <rect key="frame" x="0.0" y="121" width="281" height="33"/>
+                                        <color key="backgroundColor" red="0.1529411765" green="0.4611718655" blue="0.52550208570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Start Scan"/>
+                                        <connections>
+                                            <action selector="scanStartStopAction:" destination="KMP-yE-bYD" eventType="touchUpInside" id="wHV-D9-98y"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdd-WG-lVt">
+                                        <rect key="frame" x="0.0" y="178" width="281" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" red="0.1529411765" green="0.4611718655" blue="0.52550208570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jdd-WG-lVt" firstAttribute="width" secondItem="qly-Bd-act" secondAttribute="width" multiplier="0.75" id="WEu-cc-Zyr"/>
+                            <constraint firstItem="7ea-Qu-APM" firstAttribute="centerY" secondItem="VKY-pc-fkr" secondAttribute="centerY" id="hrW-Ob-zW5"/>
+                            <constraint firstItem="7ea-Qu-APM" firstAttribute="centerX" secondItem="VKY-pc-fkr" secondAttribute="centerX" id="pbj-l8-urI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VKY-pc-fkr"/>
                     </view>
+                    <connections>
+                        <outlet property="infoLbl" destination="jdd-WG-lVt" id="j8p-xY-KsJ"/>
+                        <outlet property="scanButton" destination="VWh-Rs-XMe" id="6s9-g2-uK8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qpg-Wc-E9h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2258" y="134"/>
+        </scene>
+        <!--Scanned Peri Pheral List-->
+        <scene sceneID="OeU-0A-grT">
+            <objects>
+                <tableViewController storyboardIdentifier="ScannedPeriPheralList" id="6a4-xv-OgY" customClass="ScannedPeriPheralList" customModule="BLE_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nuJ-LJ-jO4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseCell" id="3B1-Ex-EJb">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3B1-Ex-EJb" id="bTe-dR-z1p">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6a4-xv-OgY" id="Iy3-ei-G5x"/>
+                            <outlet property="delegate" destination="6a4-xv-OgY" id="KFC-zA-wiw"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyI-A5-Esx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2987" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7FA-oz-Wrh">
@@ -167,5 +229,6 @@
     <resources>
         <image name="banner" width="112.5" height="112.5"/>
         <image name="broadcast" width="138.5" height="91"/>
+        <image name="reciever" width="129.5" height="97"/>
     </resources>
 </document>
