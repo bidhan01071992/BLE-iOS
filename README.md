@@ -1,6 +1,6 @@
 # BLE-iOS
 
-##Bluetooth Framework##
+## Bluetooth Framework ##
 
 Developing apps for sensors primarily involves using the **Core Bluetooth framework**, while developing apps for **iBeacon** primarily involves the **Core Location framework** (ANCS does not require an app).
 
